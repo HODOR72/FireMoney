@@ -1363,6 +1363,10 @@ body {
   font-weight: 300;
 }
 
+.font-black {
+  font-weight: 900;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1606,28 +1610,6 @@ body {
   }
 }
 
-@media (max-width: 896px) {
-  .lg\:flex {
-    display: flex;
-  }
-
-  .lg\:hidden {
-    display: none;
-  }
-
-  .lg\:justify-around {
-    justify-content: space-around;
-  }
-
-  .lg\:border-b {
-    border-bottom-width: 1px;
-  }
-
-  .lg\:border-white\/\[0\.2\] {
-    border-color: rgb(255 255 255 / 0.2);
-  }
-}
-
 @media (max-width: 850px) {
   .lg2\:mr-2 {
     margin-right: 0.5rem;
@@ -1812,10 +1794,6 @@ body {
 
   .sm2\:block {
     display: block;
-  }
-
-  .sm2\:flex {
-    display: flex;
   }
 
   .sm2\:hidden {
