@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="./css/main.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header
+			style="background-image: url('./img/header-bg.png')"
+			class="w-full h-full bg-cover bg-no-repeat bg-center text-white mb-12"
+		>
+			<div class="container relative">
+				<nav
+					class="flex items-center justify-between font-medium pt-6 mb-[84px] xl2:mb-[54px]"
+				>
+					<p class="text-[33px] font-normal md:text-[22px] relative z-[999]">
+						Fire<span class="font-medium">Money</span>
+					</p>
+					<ul class="flex justify-between max-w-[400px] w-full text-[18px] relative z-50 xl2:text-[15px] md:text-[13px] md:max-w-[300px] sm2:h-[100vh] sm2:w-[100vw] sm2:bg-orange sm2:top-0 sm2:left-0 sm2:max-w-none sm2:justify-center sm2:text-[30px] sm2:font-semibold sm2:hidden sm2:fixed sm2:flex-col menu">
+						<li class='sm2:mb-8 sm2:mx-auto'><a href="##" class='cursor-pointer'>Почему мы</a></li>
+						<li class='sm2:mb-8 sm2:mx-auto'><a href="##" class='cursor-pointer'>О сервисе</a></li>
+						<li class='sm2:mb-8 sm2:mx-auto'><a href="##" class='cursor-pointer'>Вопросы-ответы</a></li>
+					</ul>
+					<button
+						class="bg-orange py-4 px-6 br rounded-lg text-[13px] uppercase xl2:hidden"
+					>
+						Вход в личный кабинет
+					</button>
+					<button class='bg-orange py-2 px-4 br rounded-lg text-[13px] hidden uppercase xl2:block md:px-2 relative z-[999]'>
+						Вход в кабинет
+					</button>
+					<div class='burger sm2:block relative z-[999]'>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</nav>
+				<div class="flex justify-between items-center pb-16 xl2:flex-col xl2:text-center xl2:pb-4" >
+					<div class="flex flex-col max-w-[480px] leading-none xl2:mb-9">
+						<div
+							class="flex py-4 relative rounded-lg bg-white max-w-[382px] justify-center mb-5 mx-auto w-full"
+						>
+							<img
+								src="./img/fire.svg"
+								alt=""
+								class="w-14 h-14 absolute left-0 -top-3 vs3:hidden"
+							/>
+							<p class="uppercase text-[22px] font-medium text-darkliac pl-5 vs3:text-[20px]">
+								Горячие предложения
+							</p>
+						</div>
+						<h1 class="font-semibold mb-4 text-[48px] uppercase sm2:text-[36px]">
+							быстрые займы по всей России!
+						</h1>
+						<p class="font-normal mb-28 text-[27px] xl2:mb-3 sm2:text-[20px]">
+							Без проверки кредитной истории. От 1 000 ₽ за 15 минут.
+						</p>
+						<span class="font-light text-[14px] w-[300px] mx-auto"
+							>Внимание! Услуга обработки заявки платная и составляет от 98 ₽ до
+							398 ₽ раз в неделю</span
+						>
+					</div>
+					<div
+						class="w-full max-w-[459px] h-[459px] bg-yellow absolute right-[250px] top-52 rounded-full -z-1 xl2:top-[529px] xl2:-left-[26px] xl2:w-[380px] xl2:h-[380px] md2:hidden"
+					></div>
+					<img
+						src="./img/woman.png"
+						alt=""
+						class="w-[458px] h-[697px] absolute right-[340px] top-[9px] z-10 xl2:top-[282px]  xl2:-left-[90px] xl2:w-[448px] xl2:h-[660px] md:top-[268px] md2:hidden"
+					/>
+					<div
+						class="flex flex-col max-w-[430px] leading-none rounded-2xl w-full text-darkblue bg-white p-5 relative xl2:ml-auto xl2:mr-6 lg2:mr-2 md2:mx-auto"
+					>
+						<p class="text-[22px] relative z-30 mb-1">Cумма кредита</p>
+						<div class="my-6 relative z-30 range-wrap">
+							<span class='output block font-bold text-[20px] absolute -top-[24px]'>50₽</span>
+							<input type="range" min="1" max="100" value="50" class="slider" />
+							<div class="flex justify-between mt-2">
+								<span class="text-gray">1 000 ₽</span>
+								<span class="text-gray">100 000 ₽</span>
+							</div>
+						</div>
+						<p class="text-[22px] relative z-30 mb-1">Cумма кредита</p>
+						<div class="my-6 relative z-30 range-wrap">
+							<span class='output block font-bold text-[20px] absolute -top-[24px]'>50₽</span>
+							<input type="range" min="3" max="30" value="8" class="slider" />
+							<div class="flex justify-between mt-2">
+								<span class="text-gray">3</span>
+								<span class="text-gray">30</span>
+							</div>
+						</div>
+						<button
+							class="text-[18px] py-5 max-w-[273px] rounded-lg mb-16 mx-auto w-full text-white relative z-30 button"
+						>
+							Оформить заявку
+						</button>
+						<div class="grid grid-cols-2 gap-5 pl-5 relative z-30">
+							<div>
+								<p class="text-[14px] mb-1">Вы берете</p>
+								<h3 class="text-[18px] text-lightOrange">20 000 ₽</h3>
+							</div>
+							<div>
+								<p class="text-[14px] mb-1">К возврату</p>
+								<h3 class="text-[18px] text-lightOrange">25 650 ₽</h3>
+							</div>
+							<div>
+								<p class="text-[14px] mb-1">Дата возврата</p>
+								<h3 class="text-[18px] text-lightOrange">08 января 2022</h3>
+							</div>
+							<div>
+								<p class="text-[14px] mb-1">Ежемесячный платеж</p>
+								<h3 class="text-[18px] text-lightOrange">5 650 ₽</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section>
+				<div class="container">
+					<h2 class="mb-9 font-semibold text-[38px] text-darkblue text-center">
+						Лучшие предложения
+					</h2>
+					<div class="flex justify-between items-center mb-8 xl:flex-col">
+						<div
+							class="rounded-3xl bg-white backdrop-blur-md shadow-3xl py-9 px-10 relative overflow-hidden max-w-[408px] w-full xl:mb-2 vs:px-7"
+						>
+							<div class="absolute top-4 -left-6 -rotate-45 bg-brightYellow w-[100px] text-center uppercase text-white">Lite</div>
+							<p class="font-bold text-[32px] text-darkblue mb-4 vs:text-[29px]">
+								<span class="text-brightYellow">15 000 ₽</span> на
+								<span class="text-brightYellow">7</span> дней
+							</p>
+							<p class="font-light text-[15px] text-darkblue flex items-center">
+								<img src="./img/Calendar.svg" alt="" class="pr-3" />
+								Дата возварата: <span class="font-medium">12 января 2022</span>
+							</p>
+							<p class="font-light text-[15px] text-darkblue flex items-center">
+								<img src="./img/₽.svg" alt="" class="pr-3" />
+								К возврату: <span class="font-medium">45 500 ₽</span>
+							</p>
+						</div>
+						<div
+							class="rounded-3xl bg-white backdrop-blur-md shadow-3xl py-9 px-10 relative overflow-hidden max-w-[408px] w-full xl:mb-2 vs:px-7"
+						>
+							<div class="absolute top-4 -left-6 -rotate-45 bg-orange w-[100px] text-center uppercase text-white">Basic</div>
+							<p class="font-bold text-[32px] text-darkblue mb-4 vs:text-[29px]">
+								<span class="text-brightYellow">25 000 ₽</span> на
+								<span class="text-brightYellow">1</span> месяц
+							</p>
+							<p class="font-light text-[15px] text-darkblue flex items-center">
+								<img src="./img/Calendar.svg" alt="" class="pr-3" />
+								Дата возварата: <span class="font-medium">12 января 2022</span>
+							</p>
+							<p class="font-light text-[15px] text-darkblue flex items-center">
+								<img src="./img/₽.svg" alt="" class="pr-3" />
+								К возврату: <span class="font-medium">45 500 ₽</span>
+							</p>
+						</div>
+						<div
+							class="rounded-3xl bg-white backdrop-blur-md shadow-3xl py-9 px-10 relative overflow-hidden max-w-[408px] w-full xl:mb-2 vs:px-7"
+						>
+							<div class="absolute top-4 -left-6 -rotate-45 bg-red w-[100px] text-center uppercase text-white">Pro</div>
+							<p class="font-bold text-[32px] text-darkblue mb-4 vs:text-[29px]">
+								<span class="text-brightYellow">45 000 ₽</span> на
+								<span class="text-brightYellow">1</span> год
+							</p>
+							<p class="font-light text-[15px] text-darkblue flex items-center">
+								<img src="./img/Calendar.svg" alt="" class="pr-3" />
+								Дата возварата: <span class="font-medium">12 января 2022</span>
+							</p>
+							<p class="font-light text-[15px] text-darkblue flex items-center">
+								<img src="./img/₽.svg" alt="" class="pr-3" />
+								К возврату: <span class="font-medium">45 500 ₽</span>
+							</p>
+						</div>
+				</div>
+				<p class='text-darkblue font-light text-[13px] text-center pb-12 mb-11' style='border-bottom: 1px solid rgba(69, 81, 95, 0.05);'>* Расчёт не является публичное офертой и может отличаться от реальной ставки кредитора</p>
+			</section>
+			<section class='mb-11'>
+				<div class="container">
+					<h3 class='mb-20 font-semibold text-[38px] text-center lg3:mb-10'>Как получить деньги</h3>
+					<div class='flex justify-around items-center relative mb-11 leading-[132%] lg3:flex-col lg3:items-start'>
+						<div class="flex flex-col items-center lg3:flex-row line lg3:after:-top-[5px] lg3:after:left-[84px] lg3:after:w-[10px] lg3:after:h-[385px] lg3:before:-top-[5px] lg3:before:left-[84px] lg3:before:h-[60px] lg3:before:w-[10px]">
+							<img src="./img/chooseSum.svg" alt="" class='mb-8 h-[57px] mx-auto lg3:mr-[20px] lg3:h-[64px]'>
+							<div class='bg-darkOrange w-[34px] h-[34px] rounded-full text-center p-1 text-white mb-7 lg3:mb-0 lg3:mr-[34px]'>1</div>
+							<p class="font-light text-darkblue text-[18px] text-center w-[140px] lg3:w-full">Выберите сумму займа</p>
+						</div>
+						<div class="flex flex-col items-center lg3:flex-row">
+							<img src="./img/questionnaire.svg" alt="" class='mb-8 w-[57px] h-[57px] mx-auto lg3:mr-[20px]'>
+							<div class='bg-white w-[34px] h-[34px] rounded-full text-center p-1 text-darkWhite mb-7 lg3:mb-0 lg3:mr-[34px]'>2</div>
+							<p class="font-light text-darkblue text-[18px] text-center w-[140px] lg3:w-full">Заполните анкету</p>
+						</div>
+						<div class="flex flex-col items-center lg3:flex-row">
+							<img src="./img/review.svg" alt="" class='mb-8  w-[57px] h-[57px] mx-auto lg3:mr-[20px]'>
+							<div class='bg-white w-[34px] h-[34px] rounded-full text-center p-1 text-darkWhite mb-7 lg3:mb-0 lg3:mr-[34px]'>3</div>
+							<p class="font-light text-darkblue text-[18px] text-center w-[205px] lg3:w-full">Дождитесь рассмотрения заявки</p>
+						</div>
+						<div class="flex flex-col items-center lg3:flex-row">
+							<img src="./img/getMoney.svg" alt="" class='mb-8  w-[57px] h-[57px] mx-auto lg3:mr-[20px]'>
+							<div class='bg-white w-[34px] h-[34px] rounded-full text-center p-1 text-darkWhite mb-7 lg3:mb-0 lg3:mr-[34px] lg3:w-[34px] lg3:h-[34px]'>4</div>
+							<p class="font-light text-darkblue text-[18px] text-center w-[245px] lg3:w-full">Получите деньги любым удобным способом</p>
+						</div>
+					</div>
+					<button class='text-[18px] font-bold py-5 px-11 uppercase block mx-auto rounded-lg text-white button'>Оформить заявку</button>
+				</div>
+			</section>
+			<section class='bg-white pb-12'>
+				<div class="container px-28 xl4:px-0">
+					<h3 class="pt-14 text-[38px] font-semibold mb-3 text-center sm2:pt-8">Способы получения</h3>
+					<p class="text-[13px] font-light text-darkblue mb-11 text-center">На карту  QIWI  Yandex Деньги  Наличные</p>
+					<div class='flex justify-around items-center mb-8 flex-wrap'>
+						<div class='p-7 rounded-3xl bg-grayLight backdrop-blur-md flex flex-col items-center w-[140px] cursor-pointer md:mb-3'>
+							<img src="./img/eMoney.png" alt="" class='mb-4'>
+							<img src="./img/arrow.svg" alt="">
+						</div>
+						<div class='p-7 rounded-3xl bg-grayLight backdrop-blur-md flex flex-col items-center w-[140px] cursor-pointer md:mb-3'>
+							<img src="./img/qiwi.png" alt="" class='mb-4'>
+							<img src="./img/arrow.svg" alt="">
+						</div>
+						<div class='p-7 rounded-3xl bg-grayLight backdrop-blur-md flex flex-col items-center w-[140px] cursor-pointer md:mb-3'>
+							<img src="./img/visa.png" alt="" class='mb-4'>
+							<img src="./img/arrow.svg" alt="">
+						</div>
+						<div class='p-7 rounded-3xl bg-grayLight backdrop-blur-md flex flex-col items-center w-[140px] cursor-pointer md:mb-3'>
+							<img src="./img/masterCard.png" alt="" class='mb-4'>
+							<img src="./img/arrow.svg" alt="">
+						</div>
+						<div class='p-7 rounded-3xl bg-grayLight backdrop-blur-md flex flex-col items-center w-[140px] cursor-pointer md:mb-3'>
+							<img src="./img/money.png" alt="" class='mb-4'>
+							<img src="./img/arrow.svg" alt="">
+						</div>
+					</div>
+					<button class='text-[18px] font-bold py-5 px-11 uppercase block mx-auto rounded-lg text-white md:mb-3 button'>Оформить заявку</button>
+				</div>
+			</section>
+			<section class='mb-8'>
+				<div class="container">
+					<h3 class='pt-16 mb-11 font-semibold text-[38px] text-darkblue text-center'>Почему выбирают нас</h3>
+					<div class='flex items-stretch justify-between mb-9 xl:justify-around'>
+						<div class='w-[408px] p-12 bg-white shadow-3xl rounded-3xl'>
+							<img src="./img/avatar-1.png" alt="" class='mb-6'>
+							<h4 class='mb-4 font-bold text-[18px] text-darkblue'>Екатерина Романова, 26 лет</h4>
+							<p class='flex items-center mb-4 font-normal text-grayDark text-[15px]'><img src="./img/geo.svg" alt="" class='pr-2'>г. Москва</p>
+							<p class='mb-7 text-lightBlue font-light text-[16px]'>Для того, чтобы воспользоваться услугой, вам необходимо лишь заполнить анкету на сайте, все остальное сервис сделает за вас, сэкономив вам большое количество времени и сил. Наш сервис работает со всеми клиентами, нам не важно, какая у вас кредитная история и имеются ли текущие просрочки.</p>
+							<img src="./img/rating.svg" alt="">
+						</div>
+						<div class='w-[408px] p-12 bg-white shadow-3xl rounded-3xl lg2:hidden'>
+							<img src="./img/avatar-2.png" alt="" class='mb-6'>
+							<h4 class='mb-4 font-bold text-[18px] text-darkblue'>Ксения Романова, 28 лет</h4>
+							<p class='flex items-center mb-4 font-normal text-grayDark text-[15px]'><img src="./img/geo.svg" alt="" class='pr-2'>г. Москва</p>
+							<p class='mb-7 text-lightBlue font-light text-[16px]'>Для того, чтобы воспользоваться услугой, вам необходимо лишь заполнить анкету на сайте, все остальное сервис сделает за вас, сэкономив вам большое количество времени и сил. Наш сервис работает со всеми клиентами, нам не важно, какая у вас кредитная история.</p>
+							<img src="./img/rating.svg" alt="">
+						</div>
+						<div class='w-[408px] p-12 bg-white shadow-3xl rounded-3xl xl:hidden'>
+							<img src="./img/avatar-3.png" alt="" class='mb-6'>
+							<h4 class='mb-4 font-bold text-[18px] text-darkblue'>Александр Прохоренко,25 лет</h4>
+							<p class='flex items-center mb-4 font-normal text-grayDark text-[15px]'><img src="./img/geo.svg" alt="" class='pr-2'>г. Москва</p>
+							<p class='mb-7 text-lightBlue font-light text-[16px]'>Для того, чтобы воспользоваться услугой, вам необходимо лишь заполнить анкету на сайте, все остальное сервис сделает за вас, сэкономив вам большое количество времени и сил. Наш сервис работает со всеми клиентами, нам не важно, какая у вас кредитная история и имеются ли текущие просрочки.</p>
+							<img src="./img/rating.svg" alt="">
+						</div>
+					</div>
+					<div class='flex items-center justify-center'>
+						<button class='text-[18px] font-bold py-5 px-11 uppercase block rounded-lg text-white button'>Оформить заявку</button>
+						<button class='uppercase py-5 px-8 rounded-lg ml-2' style='border: 1px solid #C9D2DD'>Все отзывы</button>
+					</div>
+				</div>
+			</section>
+			<section style='background: linear-gradient(278.04deg, #FFC83E 31.99%, #FF9F47 81.27%)' class='pb-14'>
+				<div class="container">
+					<h4 class='font-semibold text-[38px] mb-9 text-center pt-14 text-white'>Наши клиенты</h4>
+					<div class='flex justify-between xl:justify-around lg2:'>
+						<div class='p-6 flex items-center rounded-3xl backdrop-blur-md shadow-3xl bg-white w-[408px]'>
+							<img src="./img/cross.svg" alt="" class='pr-6'>
+							<div>
+								<h5 class='mb-1 font-semibold text-[16px] text-darkblue'>Екатерина Романова</h5>
+								<p class='mb-1 text-lightBlue font-light text-[16px]'>Получила отказ 45 сек назад</p>
+								<p class='flex items-center font-normal text-grayDark text-[15px]'><img src="./img/geo.svg" alt="" class='pr-2'>г. Москва</p>
+							</div>
+						</div>
+						<div class='p-6 flex items-center rounded-3xl backdrop-blur-md shadow-3xl bg-white w-[408px] lg2:hidden'>
+							<img src="./img/plus.svg" alt="" class='pr-6'>
+							<div>
+								<h5 class='mb-1 font-semibold text-[16px] text-darkblue'>Игорь Николаев</h5>
+								<p class='mb-1 text-lightBlue font-light text-[16px]'>Взял 5 000 ₽ 2 мин назад</p>
+								<p class='flex items-center font-normal text-grayDark text-[15px]'><img src="./img/geo.svg" alt="" class='pr-2'>г. Москва</p>
+							</div>
+						</div>
+						<div class='p-6 flex items-center rounded-3xl backdrop-blur-md shadow-3xl bg-white w-[408px] xl:hidden'>
+							<img src="./img/downoload.svg" alt="" class='pr-6'>
+							<div>
+								<h5 class='mb-1 font-semibold text-[16px] text-darkblue'>Светлана Борисовна</h5>
+								<p class='mb-1 text-lightBlue font-light text-[16px]'>Внес на счет 12 000 ₽ 45 сек назад</p>
+								<p class='flex items-center font-normal text-grayDark text-[15px]'><img src="./img/geo.svg" alt="" class='pr-2'>г. Москва</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class='pt-14 bg-white pb-16 mb-16 xl4:mb-0'>
+				<div class="container">
+					<h4 class='font-semibold text-[38px] text-darkblue mb-11 text-center'>О сервисе</h4>
+					<div class='flex justify-between items-stretch xl:flex-col x1:items-center'>
+						<div class='p-11 backdrop-blur-md rounded-3xl shadow-3xl max-w-[625px] mx-auto xl:mb-8 sm3:p-6' style='border: 1px solid #F8EBEB; background: rgba(255, 255, 255, 0.95);'>
+							<h5 class='font-semibold text-[24px] text-darkblue mb-8'>Все возможные риски и убытки, и условия выдачи кредитов.</h5>
+							<p class='text-[16px] font-light mb-3'>о вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает непосредственно с кредитными организациями, предоставляющими микрозаймы
+							В случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком на 1 год с момента активации услуги!
+							</p>
+							<p class='text-[16px] font-light mb-3'>
+							Ваша заявка будет отправляться в МФО с наибольшей вероятностью одобрения в данный момент времени с соблюдением необходимых пауз между отправками. При предварительном одобрении кредитные организации сами связываются с вами, и вам необходимо лишь подтвердить свое согласие на займ и забрать деньги.
+							Список МФО, в которые была отправлена ваша заявка, и другую необходимую информацию о работе в рамках платной услуги вы можете наблюдать в личном кабинете, в разделе Отчеты
+							Стоимость услуги всего 1499 рублей. Для вашего удобства оплата услуги происходит в рассрочку: четыре платежа по 374.8 рублей каждые пять дней. Оплачивая услугу, вы получаете доступ к функциональности сервиса сроком на 1 год (365 дней) с момента активации услуги.
+							</p>
+							<p class='text-[16px] font-light'>
+							Если вы получили займ и более не нуждаетесь в услугах сервиса - вы можете остановить обработку вашей заявки самостоятельно и в любое время в разделе Отписаться от услуг.
+						</p>
+						</div>
+							<div class='p-11 backdrop-blur-md rounded-3xl shadow-3xl max-w-[625px] mx-auto' style='border: 1px solid #F8EBEB; background: rgba(255, 255, 255, 0.95);'>
+							<h5 class='font-semibold text-[24px] text-darkblue mb-14 xl:mb-8'>Что будет при просрочке</h5>
+							<p class='text-[16px] font-light mb-3'>о вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает непосредственно с кредитными организациями, предоставляющими микрозаймы
+							В случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком на 1 год с момента активации услуги!
+							</p>
+							<p class='text-[16px] font-light mb-3'>
+							Ваша заявка будет отправляться в МФО с наибольшей вероятностью одобрения в данный момент времени с соблюдением необходимых пауз между отправками. При предварительном одобрении кредитные организации сами связываются с вами, и вам необходимо лишь подтвердить свое согласие на займ и забрать деньги.
+							Список МФО, в которые была отправлена ваша заявка, и другую необходимую информацию о работе в рамках платной услуги вы можете наблюдать в личном кабинете, в разделе Отчеты
+							Стоимость услуги всего 1499 рублей. Для вашего удобства оплата услуги происходит в рассрочку: четыре платежа по 374.8 рублей каждые пять дней. Оплачивая услугу, вы получаете доступ к функциональности сервиса сроком на 1 год (365 дней) с момента активации услуги.
+							</p>
+							<p class='text-[16px] font-light'>
+							Если вы получили займ и более не нуждаетесь в услугах сервиса - вы можете остановить обработку вашей заявки самостоятельно и в любое время в разделе Отписаться от услуг.
+						</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class='pt-14 mb-20'>
+				<div class="container">
+					<h5 class='font-semibold text-[38px] text-darkblue mb-9 text-center'>Вопросы-ответы</h5>
+					<div class='.accordion'>
+						<div class='rounded-xl backdrop-blur-md shadow-3xl bg-white mb-1 cursor-pointer accordion__item'>
+							<div class='flex items-center justify-between p-6 accordion__item-trigger'>
+								<h6 class='font-semibold text-[20px] text-darkblue'>Как долго обрабатывается заявка?</h6>
+								<img src="./img/arrow-accordeon.svg" alt="">
+							</div>
+							<div class="accordion__item-content pr-[40px] p-6 pt-0">
+								<div class="content__text font-light text-[16px]">Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает непосредственно с кредитными организациями, предоставляющими микрозаймы
+								в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком на 1 год с момента 	активации услуги!
+								</div>
+							</div>
+						</div>
+						<div class='rounded-xl backdrop-blur-md shadow-3xl bg-white mb-1 cursor-pointer accordion__item'>
+							<div class='flex items-center justify-between p-6 accordion__item-trigger'>
+								<h6 class='font-semibold text-[20px] text-darkblue'>Как погасить полученный займ?</h6>
+								<img src="./img/arrow-accordeon.svg" alt="">
+							</div>
+							<div class="accordion__item-content pr-[40px] p-6 pt-0">
+								<div class="content__text font-light text-[16px]">Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает непосредственно с кредитными организациями, предоставляющими микрозаймы
+								в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком на 1 год с момента 	активации услуги!
+								</div>
+							</div>
+						</div>
+						<div class='rounded-xl backdrop-blur-md shadow-3xl bg-white mb-1 cursor-pointer accordion__item'>
+							<div class='flex items-center justify-between p-6 accordion__item-trigger'>
+								<h6 class='font-semibold text-[20px] text-darkblue'>Как получить деньги?</h6>
+								<img src="./img/arrow-accordeon.svg" alt="">
+							</div>
+							<div class="accordion__item-content pr-[40px] p-6 pt-0">
+								<div class="content__text font-light text-[16px]">Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает непосредственно с кредитными организациями, предоставляющими микрозаймы
+								в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком на 1 год с момента 	активации услуги!
+								</div>
+							</div>
+						</div>
+						<div class='rounded-xl backdrop-blur-md shadow-3xl bg-white mb-1 cursor-pointer accordion__item'>
+							<div class='flex items-center justify-between p-6 accordion__item-trigger'>
+								<h6 class='font-semibold text-[20px] text-darkblue'>География сервиса?</h6>
+								<img src="./img/arrow-accordeon.svg" alt="">
+							</div>
+							<div class="accordion__item-content pr-[40px] p-6 pt-0">
+								<div class="content__text font-light text-[16px]">Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает непосредственно с кредитными организациями, предоставляющими микрозаймы
+								в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком на 1 год с момента 	активации услуги!
+								</div>
+							</div>
+						</div>
+						<div class='rounded-xl backdrop-blur-md shadow-3xl bg-white mb-1 cursor-pointer accordion__item'>
+							<div class='flex items-center justify-between p-6 accordion__item-trigger'>
+								<h6 class='font-semibold text-[20px] text-darkblue'>Как остановить обработку заявки?</h6>
+								<img src="./img/arrow-accordeon.svg" alt="">
+							</div>
+							<div class="accordion__item-content pr-[40px] p-6 pt-0">
+								<div class="content__text font-light text-[16px]">Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает непосредственно с кредитными организациями, предоставляющими микрозаймы
+								в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком на 1 год с момента 	активации услуги!
+								</div>
+							</div>
+						</div>
+						<div class='rounded-xl backdrop-blur-md shadow-3xl bg-white mb-1 cursor-pointer accordion__item'>
+							<div class='flex items-center justify-between p-6 accordion__item-trigger'>
+								<h6 class='font-semibold text-[20px] text-darkblue'>Какова стоимость услуги?</h6>
+								<img src="./img/arrow-accordeon.svg" alt="">
+							</div>
+							<div class="accordion__item-content pr-[40px] p-6 pt-0">
+								<div class="content__text font-light text-[16px]">Вашим анкетным данным сервис автоматически выбирает наиболее выгодные предложения и работает непосредственно с кредитными организациями, предоставляющими микрозаймы
+								в случае приобретения платной услуги, вы получаете полный доступ к функциональности сервиса сроком на 1 год с момента 	активации услуги!
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class='relative bg-white'>
+				<div class="container">
+					
+					<div class='py-[50px] relative z-10 xl4:pb-[410px] xl4:text-center sm2:pb-[430px]'>
+						<h6 class='font-semibold text-[38px] text-darkblue mb-6 sm:text-[34px] sm2:text-[30px]'>Получи деньги здесь и сейчас</h6>
+						<p class=' mb-6 font-normal text-lightBlue text-[27px] max-w-[450px] w-full xl4:mx-auto sm3:max-w-none sm3:text-[22px]'>Без проверки кредитной истории. От 1 000 ₽ за 15 минут.</p>
+						<button class='text-[18px] font-bold py-5 px-11  uppercase block rounded-lg text-white xl4:mx-auto sm3:px-6 button'>Оформить заявку</button>
+					</div>
+					<img src="./img/smiling-young-woman-holding-mobile-phone-and-credit-card.png" alt="" class='absolute right-[318px] -top-[25px] w-[633px] h-[402px] object-contain  xl4:top-[313px] xl4:right-[50%] translate-x-[50%] xl4:object-cover sm:top-[305px] sm2:top-[304px] sm4:top-[350px]'>
+				</div>
+			</section>
+		</main>
+		<footer class='text-white pb-12' style='background: url("/img/footer-bg.png") no-repeat center / cover'>
+			<div class="container">
+				<nav
+					class='flex flex-col items-center  mb-[30px]'
+					style='border-bottom: 1px solid rgba(255, 255, 255, 0.2)'
+				>
+				<div 	class="flex items-center justify-between font-medium pt-12 pb-9 w-full xl4:justify-around xl4:border-b xl4:border-white/[0.2] sm2:flex-col sm2:pb-5 sm2:pt-7">
+					<p class="text-[33px] font-normal sm2:mb-6">
+						Fire<span class="font-medium">Money</span>
+					</p>
+					<ul class="flex justify-between max-w-[400px] w-full text-[18px] relative z-50 xl4:hidden">
+						<li><a href="##" class='cursor-pointer'>Почему мы</a></li>
+						<li><a href="##" class='cursor-pointer'>О сервисе</a></li>
+						<li><a href="##" class='cursor-pointer'>Вопросы-ответы</a></li>
+					</ul>
+				
+					<a href='mailto:Kustohelp@gmail.com' class='text-[13px] font-normal sm2:mb-6 flex'><img src="./img/email.svg" alt="" class='pr-2'> Kustohelp@gmail.com</a>
+					<p class='font-bold font-[22px] sm2:mb-6 flex'><img src="./img/tel.svg" alt="" class='pr-2'> 8 800 808-00-80</p>	
+				</div>
+					<ul class="justify-between max-w-[400px] w-full text-[18px] relative z-50 py-8 hidden xl4:flex">
+						<li><a href="##" class='cursor-pointer'>Почему мы</a></li>
+						<li><a href="##" class='cursor-pointer'>О сервисе</a></li>
+						<li><a href="##" class='cursor-pointer'>Вопросы-ответы</a></li>
+					</ul>
+				</nav>
+				<h6 class='font-normal text-[18px]'>Список кредиторов</h6>
+				<p class='mb-7 font-light text-[13px]'>ООО "МКК СКОРФИН", 344101, г. Ростов-на-Дону, ул. Портовая, д. 193, оф. 302, Лицензия № 1703020008232, ИНН 3664223480, ОГРН 		1163668109428, процентная ставка 0,99% в день
+					ООО МФК "Быстроденьги", 123290 г. Москва, 1-й Магистральный туп., д.11 стр.10, Лицензия № 2110573000002, ИНН 7325081622, ОГРН 1087325005899, процентная ставка 0% в день
+					ООО "МКК КАНГАРИЯ", 344101, г. Ростов-на-Дону, ул. Ленинградская, д. 7, пом. № П-13, Лицензия № 1904067009295, ИНН 9201526872, ОГРН 1189204008564, процентная ставка 0% в день
+					ООО МКК "Киберлэндинг", 420043, г. Казань, ул. Достоевского, д. 52, оф. 3, Лицензия № 1803392008777, ИНН 1659182700, ОГРН 1171690064920, процентная ставка 0% в день
+					ООО МКК "Кредиттер", 115280, г. Москва, ул. Ленинская Слобода, д. 19, стр. 6, ком. 6, 7, Лицензия № 1903045009373, ИНН 7702463482, ОГРН 1197746100530, процентная ставка 0,99% в день
+					ООО МФК "Лайм-Займ", 630102, г. Новосибирск, ул. Кирова, д. 48, оф. 1401, Лицензия № 651303045004102, ИНН 7724889891, ОГРН 1137746831606, процентная ставка 0% в день
+					ООО МКК "Академическая", 630091, г. Новосибирск, ул. Державина, 28, оф. 301, Лицензия № 1903550009325, ИНН 5407973316, ОГРН 1195476007605, процентная ставка 0% в день
+					ООО МКК "КАППАДОКИЯ", 443045, г. Самара, ул. Авроры, д. 150, пом. №н4, офис 306.3, Лицензия № 1903475009492, ИНН 7459007268, ОГРН 1197456052199, процентная ставка 0% в день
+					ООО МКК "ДЗП-Центр", 190031, г. Санкт-Петербург, пер. Спасский, д. 14/35, лит. А, пом. 38 Н, Лицензия № 651403140005467, ИНН 7838500558, ОГРН 1147847029990, процентная ставка 0% в день
+					ООО МКК "Кватро", 443030, г. Самара, ул. Чернореченская, д. 21, оф. 425, Лицензия № 1903550009364, ИНН 5402053330, ОГРН 1195476044609, процентная ставка 0% в день
+					ООО МКК "Турбозайм", 123290, г. Москва, туп. Магистральный 1-й, д. 11, стр.10, Лицензия № 651303045003951, ИНН 7702820127, ОГРН 1137746702367, процентная ставка 0,99% в день
+				</p>
+				<div class='flex justify-between items-center mb-7 xl:flex-col'>
+					<div class='flex justify-between items-center py-5 flex-wrap' style='border-bottom: 1px solid rgba(255, 255, 255, 0.2); border-top: 1px solid rgba(255, 255, 255, 0.2);'>
+						<p class='w-[118px] text-[18px] vs:w-full vs:text-center vs:mb-4'>Какие карты принимаем</p>
+						<img src="./img/eMoney.png" alt="" class='vs:w-[74px]'>
+						<img src="./img/masterCard.png" alt="" class='vs:w-[74px] '>
+						<img src="./img/mir.png" alt="" class='vs:w-[74px] '>
+					</div>
+					<div class='max-w-[767px] w-full text-center'>
+						<p class='py-[33px] font-light text-[18px] border-white border-[1px]'>Мы явлемся обработчиками персональных данных</p>
+					</div>
+				</div>
+				<div class='pb-10' style='border-bottom: 1px solid rgba(255, 255, 255, 0.2);'>
+					<h6 class='font-normal text-[18px] mb-6'>Соглашения и условия</h6>
+					<p class='mb-7 font-light text-[13px]'>Займы и кредиты предоставляются партнерами Imoneys Сredit на сумму от 3 000 до 1 000 000 рублей включительно на срок от 13 до 260 недель. Проценты за пользование денежных средств составляют от 40 до 360 процентов годовых. Расчетная сумма (основной долг и проценты) к возврату от 500 до 250 000 рублей. Условия актуальны на 01.06.2021 и не являются публичной офертой. Пример расчета общей стоимости займа: заём на 15 000 руб. и сроком 25 недель; проценты за весь период составят 5 000 руб. Итого ПСК 264,392 %. За услуги сервиса может быть взята плата в размере от 48 до 446 руб. за активацию сервиса.</p>
+					<p class='font-light text-[13px]'>В случае невозвращения в условленный срок суммы кредита или суммы процентов за пользование заёмными средствами кредитор 		вынуждено начислит штраф за просрочку платежа. Большинство кредиторов идут на уступки и дают 3 дополнительных рабочих дня для 	оплаты. Они предусмотрены на случай, к примеру, если банковский перевод занял больше времени, чем обычно. Однако, в случае 		неполучения от Вас какой-либо реакции в течение продолжительного времени, будет начислен штраф за просрочку срока погашения размером в среднем 0,10% от первоначальной суммы для займов, 0,03% от суммы задолженности в среднем для потребительских кредитов и кредитных карт. При несоблюдении Вами условий по погашению кредитов и займов, данные о Вас могут быть переданы в реестр должников или БКИ, что негативно может сказаться на Вашей кредитной истории и рейтинге кредитоспособности. Рекомендуем Вам вносить платеж в день получения данных напоминаний. Погашая задолженность в срок, Вы формируете хорошую кредитную историю, что повышает Ваш рейтинг кредитоспособности и шансы в дальнейшем получить кредит на более выгодных условиях.
+				</div>
+				</p>
+				<div class='flex justify-between items-center pt-4 xl4:flex-col'>
+					<div class='flex items-center xl:mb-11'>
+						<img src="./img/18+.svg" alt="" class='pr-7'>
+						<p class='font-normal text-[18px]'>Imoneys Сredit ©2015–2022 Все права на сайт защищены.</p>
+					</div>
+					<ul class='flex items-center md2:w-full md2:justify-center'>
+						<li class='mr-9'><a href="##" class='font-medium text-[16px] uppercase text-lightWhite py-3 px-7'>Отписаться</a></li>
+						<li class='mr-12'><a href="##"><img src="./img/YouTube.svg" alt=""></a></li>
+						<li class='mr-12'><a href="##"><img src="./img/Instagram.svg" alt=""></a></li>
+						<li><a href="##"><img src="./img/facebook.svg" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<script src="./index.js"></script>
+	</body>
+</html>
