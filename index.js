@@ -47,7 +47,8 @@ items.forEach(item => {
 })
 
 // BurgerMenu
-
+const body = document.body
+let scrollPosition = 0
 const burger = document.querySelector('.burger')
 const menu = document.querySelector('.menu')
 burger.addEventListener('click', () => {
@@ -55,11 +56,21 @@ burger.addEventListener('click', () => {
 		menu.classList.add('active')
 		menu.classList.remove('sm2:hidden')
 		burger.classList.add('active-burger')
-		bodyWrapper.style.overflow = 'hidden'
+
+		scrollPosition = window.pageYOffset
+		body.style.overflow = 'hidden'
+		body.style.position = 'fixed'
+		body.style.top = `-${scrollPosition}px`
+		body.style.width = '100%'
 	} else {
 		menu.classList.remove('active')
 		burger.classList.remove('active-burger')
 		menu.classList.add('sm2:hidden')
-		bodyWrapper.style.overflow = 'visible'
+
+		body.style.removeProperty('overflow')
+		body.style.removeProperty('position')
+		body.style.removeProperty('top')
+		body.style.removeProperty('width')
+		window.scrollTo(0, scrollPosition)
 	}
 })

@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.1.6 | MIT License | https://tailwindcss.com
+! tailwindcss v3.1.7 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -747,8 +747,8 @@ body {
   z-index: 999;
 }
 
-.z-50 {
-  z-index: 50;
+.z-\[9999\] {
+  z-index: 9999;
 }
 
 .z-10 {
@@ -757,6 +757,14 @@ body {
 
 .z-30 {
   z-index: 30;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-\[100\] {
+  z-index: 100;
 }
 
 .mx-auto {
@@ -1361,10 +1369,6 @@ body {
 
 .font-light {
   font-weight: 300;
-}
-
-.font-black {
-  font-weight: 900;
 }
 
 .font-bold {
