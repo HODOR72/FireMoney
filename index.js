@@ -55,11 +55,11 @@ burger.addEventListener('click', () => {
 		menu.classList.add('active')
 		menu.classList.remove('sm2:hidden')
 		burger.classList.add('active-burger')
-		document.body.style.overflow = 'hidden'
+		bodyWrapper.style.overflow = 'hidden'
 	} else {
 		menu.classList.remove('active')
 		burger.classList.remove('active-burger')
 		menu.classList.add('sm2:hidden')
-		document.body.style.overflow = 'visible'
+		bodyWrapper.style.overflow = 'visible'
 	}
 })
